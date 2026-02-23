@@ -2,7 +2,7 @@
   "name": "calendar",
   "private": true,
   "home" : "https://KatrinaBB.github.io/calendar",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
