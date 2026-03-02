@@ -28,7 +28,7 @@ export default function EventItem({ event, deleteHandler }) {
             <p className="event-date">{formatDate(event.date)}</p>
             <p>{event.description}</p>
             <div className="event-actions">
-                <Link to={`/edit/${event.id}`}>Update event</Link>
+                <Link to={`/update/${event.id}`}>Update event</Link>
                 <button onClick={() => deleteHandler(event.id)}>Delete event</button>
             </div>
         </div>

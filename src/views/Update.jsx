@@ -36,6 +36,7 @@ export default function Update() {
         event.id === Number(id) ? updatedEvent : event
         )
     );
+        navigate("/");
     }
 
 

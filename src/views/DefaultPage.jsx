@@ -34,9 +34,9 @@ function DefaultPage() {
 
   return (
     <>
+    <Searchfield handleinput={handleInputChange} filter={filterText} />
       {filteredEvents.length > 0 ? (
         <div>
-          <Searchfield handleinput={handleInputChange} filter={filterText} />
           <EventList events={filteredEvents} setEvents={setEvents} />
         </div>
       ) : (
